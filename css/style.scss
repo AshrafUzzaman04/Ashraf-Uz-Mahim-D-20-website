@@ -44,3 +44,19 @@
     }
   }
 }
+.contact_no {
+  display: flex;
+  > li {
+    list-style: none;
+    background-color: #5e5e5e;
+    border-radius: 50%;
+    width: 40px;
+    margin: 0px 6px;
+    > a {
+      text-decoration: none;
+      color: white;
+      line-height: 40px;
+      font-size: 16px;
+    }
+  }
+}
