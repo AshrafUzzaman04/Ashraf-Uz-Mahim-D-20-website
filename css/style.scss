@@ -60,3 +60,16 @@
     }
   }
 }
+.starrate {
+  > ul {
+    display: flex;
+    justify-content: end;
+    > li {
+      list-style: none;
+      > a {
+        text-decoration: none;
+        color: #f59e0b;
+      }
+    }
+  }
+}

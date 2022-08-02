@@ -60,4 +60,16 @@
   color: white;
   line-height: 40px;
   font-size: 16px;
+}
+
+.starrate > ul {
+  display: flex;
+  justify-content: end;
+}
+.starrate > ul > li {
+  list-style: none;
+}
+.starrate > ul > li > a {
+  text-decoration: none;
+  color: #f59e0b;
 }/*# sourceMappingURL=style.css.map */
