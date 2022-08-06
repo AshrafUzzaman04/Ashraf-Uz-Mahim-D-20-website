@@ -169,7 +169,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 rounded p-0 mb-3 gap-3 d-grid">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 rounded p-0 mb-3">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -207,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 rounded p-0 mb-3">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -226,7 +226,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 rounded p-0 mb-3">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -245,7 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 rounded p-0 mb-3">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -264,7 +264,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 rounded p-0 mb-3">
+        <div class="col-12 col-lg-6 border rounded p-0 mb-3 d-grid gap-3">
           <div class="row text-center text-md-start">
             <div class="col-12 col-md-4 m-auto">
               <img
@@ -284,7 +284,7 @@
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 text-center">
           <button class="btn btn-primary px-3 text-center my-4 cbutton">
             See More Courses
           </button>
@@ -364,6 +364,8 @@
             <div class="col-12 col-lg-6 my-auto">
               <button
                 class="btn btn-light text-primary fw-bold px-4 m-auto float-lg-end"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
               >
                 Register Now
               </button>
@@ -820,6 +822,68 @@
       </div>
     </div>
     <!-- footer end -->
+
+    <!-- Modal Register -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header yoyomodal">
+            <h5 class="modal-title fw-bold" id="exampleModalLabel">
+              Register Now
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form action="" class="needs-validation">
+            <div class="modal-body">
+              <!-- Register form start -->
+
+              <div class="col-12">
+                <div class="mb-2">
+                  <label for="usernamebroh">User Name :</label>
+                  <input
+                    type="User Name"
+                    class="form-control bg-light"
+                    id="usernamebroh"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="emailbroh">Email :</label>
+                  <input
+                    type="email"
+                    id="emailbroh"
+                    class="form-control bg-light"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="itspasswordbroh">Password :</label>
+                  <input
+                    type="password"
+                    id="itspasswordbroh"
+                    class="form-control bg-light"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer yoyomodal">
+              <input type="reset" class="btn btn-primary" value="Reset" />
+              <input type="submit" value="Register" class="btn btn-success" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Register end here -->
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
